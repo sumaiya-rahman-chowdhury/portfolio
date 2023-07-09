@@ -53,9 +53,9 @@ nav a {
 
 .header {
     background: #FFF8F3;
-    background-image: url('/images/header_bg.png');
+    background-image: url('/images/header_bg.png'),url('/images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
 }
 
 .banner {
@@ -103,7 +103,7 @@ nav a {
     color: #181818;
     text-align: center;
     font-family: Open Sans;
-    font-size: 35px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
