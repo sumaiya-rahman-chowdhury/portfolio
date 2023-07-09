@@ -202,11 +202,19 @@ line-height: normal;
 .resume-item-description{
     color: var(--dark-03, #757575);
 font-family: Open Sans;
-font-size: 16px;
+font-size: 13px;
 font-style: normal;
 font-weight: 400;
 line-height: 28px;
 }
 .resume-container{
     display: flex;
+    gap: 50px;
+    
+}
+.resume-container{
+    padding:0px 150px;
+}
+.download-cv{
+    text-align: center;
 }
